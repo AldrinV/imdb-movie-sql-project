@@ -26,9 +26,6 @@ Six tables, normalized from IMDb's raw comma-separated genre lists and unfiltere
 - `actors` — actor/actress names and info
 - `movie_actors` — join table (cast per movie, filtered to actor/actress roles only)
 - `ratings` — average rating and vote count per movie
-
-*(Add your ER diagram image here if you make one — even a simple hand-drawn one helps.)*
-
 See [`schema/imdb_schema.sql`](schema/imdb_schema.sql) for the full staging → transform pipeline.
 
 ## Queries
